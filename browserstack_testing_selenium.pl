@@ -116,8 +116,8 @@ my %extraCaps_mobile = (
 
 
 
-my $login = "algiskukenas1";
-my $key = "ksqgGzp1eFyDyA3LLhEC";
+my $login = "";
+my $key = "";
 my $host = "$login:$key\@hub.browserstack.com";
 
 
