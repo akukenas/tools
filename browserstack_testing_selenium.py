@@ -49,7 +49,7 @@ desired_cap={
 
 for key in desired_cap:
   driver = webdriver.Remote(
-      command_executor='http://algiskukenas1:ksqgGzp1eFyDyA3LLhEC@hub.browserstack.com:80/wd/hub',
+      command_executor='http://@hub.browserstack.com:80/wd/hub',
       desired_capabilities=desired_cap[key])
 
 #  driver.get("http://www.google.com")
